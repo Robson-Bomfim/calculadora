@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="Hcode Treinamentos">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/css.css">
+</head>
+
+<body>
+
+    <div class="center">
+        <div id="calculadora">
+            <header>
+                <div class="time container">
+                    <div class="row">
+                        <div class="col">
+                            <p id="data"></p>
+                        </div>
+                        <div class="col">
+                            <p id="hora"></p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p id="display"></p>
+                </div>
+            </header>
+            <section class="container" id="buttons">
+                <div class="row">
+                    <button type="button" id="btn-porcento" class="btn btn-others col-sm">%</button>
+                    <button type="button" id="btn-sqrt" class="btn btn-others col-sm">√</button>
+                    <button type="button" id="" class="btn btn-others col-sm">x²</button>
+                    <button type="button" id="btn-m" class="btn btn-others col-sm">♫</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="btn-ce" class="btn btn-others col-sm">CE</button>
+                    <button type="button" id="btn-c" class="btn btn-others col-sm">C</button>
+                    <button type="button" id="btn-Backspace" class="btn btn-others col-sm">←</button>
+                    <button type="button" id="btn-divisao" class="btn btn-others col-sm">÷</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="btn-7" class="btn btn-number col-sm">7</button>
+                    <button type="button" id="btn-8" class="btn btn-number col-sm">8</button>
+                    <button type="button" id="btn-9" class="btn btn-number col-sm">9</button>
+                    <button type="button" id="btn-multiplicacao" class="btn btn-others col-sm">X</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="btn-4" class="btn btn-number col-sm">4</button>
+                    <button type="button" id="btn-5" class="btn btn-number col-sm">5</button>
+                    <button type="button" id="btn-6" class="btn btn-number col-sm">6</button>
+                    <button type="button" id="btn-subtracao" class="btn btn-others col-sm">-</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="btn-1" class="btn btn-number col-sm">1</button>
+                    <button type="button" id="btn-2" class="btn btn-number col-sm">2</button>
+                    <button type="button" id="btn-3" class="btn btn-number col-sm">3</button>
+                    <button type="button" id="btn-soma" class="btn btn-others col-sm">+</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="negativo" class="btn btn-others col-sm">±</button>
+                    <button type="button" id="0" class="btn btn-number col-sm">0</button>
+                    <button type="button" id="btn-ponto" class="btn btn-others col-sm">.</button>
+                    <button type="button" id="btn-igual" class="btn btn-others col-sm">=</button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="scripts/controller/calcController.js"></script>
+    <script src="scripts/calculator.js"></script>
+</body>
+
+</html>
